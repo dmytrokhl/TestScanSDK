@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "TestScanSDK"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "TestScanSDK."
   spec.swift_version = '5.0'
   spec.description  = <<-DESC
@@ -19,6 +19,11 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/dmytrokhl/TestScanSDK.git", :tag => "#{spec.version}" }
   spec.source_files  = "TestScanSDK", "TestScanSDK/**/*.{h,m}", "TestScanSDK/**/*.swift"
 
+    spec.subspec 'CardIOPrivate' do |cardIOP|
+      cardIOP.source_files  = "TestScanSDK", "TestScanSDK/**/*.{h,m}", "TestScanSDK/**/*.swift"
+      cardIOP.dependency "CardIOIOSPivate", "5.5.6"
+    end
+  
   # spec.public_header_files = "Classes/**/*.h"
 
 
