@@ -7,10 +7,9 @@
 
 import Foundation
 
-
 public class TestScanner {
-  
-  func open() {
+  public init() {}
+  public func open() {
     print("TestScanner.open()")
   }
 }
