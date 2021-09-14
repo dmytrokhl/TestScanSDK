@@ -7,4 +7,6 @@ target 'DemoApp' do
 
   # Pods for DemoApp
 
+
+	pod 'TestScanSDK', :path => "../"
 end
