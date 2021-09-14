@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "TestScanSDK"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "TestScanSDK."
   spec.swift_version = '5.0'
   spec.description  = <<-DESC
