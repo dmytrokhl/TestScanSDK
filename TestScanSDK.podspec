@@ -4,6 +4,7 @@ Pod::Spec.new do |spec|
   spec.name         = "TestScanSDK"
   spec.version      = "0.0.2"
   spec.summary      = "TestScanSDK."
+  spec.swift_version = '5.0'
   spec.description  = <<-DESC
   Test Framework integrations only
                    DESC
